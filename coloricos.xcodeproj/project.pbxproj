@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE630DEF1F16CAF3009B43EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE630DEE1F16CAF3009B43EC /* AppDelegate.swift */; };
+		EE630DF11F16CAF3009B43EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE630DF01F16CAF3009B43EC /* ViewController.swift */; };
+		EE630DF41F16CAF3009B43EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE630DF21F16CAF3009B43EC /* Main.storyboard */; };
+		EE630DF61F16CAF3009B43EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE630DF51F16CAF3009B43EC /* Assets.xcassets */; };
+		EE630DF91F16CAF3009B43EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE630DF71F16CAF3009B43EC /* LaunchScreen.storyboard */; };
+		EE630E041F16CAF3009B43EC /* coloricosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE630E031F16CAF3009B43EC /* coloricosTests.swift */; };
+		EE630E0F1F16CAF3009B43EC /* coloricosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE630E0E1F16CAF3009B43EC /* coloricosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE630E001F16CAF3009B43EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE630DE31F16CAF3009B43EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE630DEA1F16CAF3009B43EC;
+			remoteInfo = coloricos;
+		};
+		EE630E0B1F16CAF3009B43EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE630DE31F16CAF3009B43EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE630DEA1F16CAF3009B43EC;
+			remoteInfo = coloricos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE630DEB1F16CAF3009B43EC /* coloricos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coloricos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE630DEE1F16CAF3009B43EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE630DF01F16CAF3009B43EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE630DF31F16CAF3009B43EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE630DF51F16CAF3009B43EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE630DF81F16CAF3009B43EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE630DFA1F16CAF3009B43EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE630DFF1F16CAF3009B43EC /* coloricosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coloricosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE630E031F16CAF3009B43EC /* coloricosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coloricosTests.swift; sourceTree = "<group>"; };
+		EE630E051F16CAF3009B43EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE630E0A1F16CAF3009B43EC /* coloricosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coloricosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE630E0E1F16CAF3009B43EC /* coloricosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coloricosUITests.swift; sourceTree = "<group>"; };
+		EE630E101F16CAF3009B43EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE630DE81F16CAF3009B43EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE630DFC1F16CAF3009B43EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE630E071F16CAF3009B43EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE630DE21F16CAF3009B43EC = {
+			isa = PBXGroup;
+			children = (
+				EE630DED1F16CAF3009B43EC /* coloricos */,
+				EE630E021F16CAF3009B43EC /* coloricosTests */,
+				EE630E0D1F16CAF3009B43EC /* coloricosUITests */,
+				EE630DEC1F16CAF3009B43EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE630DEC1F16CAF3009B43EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE630DEB1F16CAF3009B43EC /* coloricos.app */,
+				EE630DFF1F16CAF3009B43EC /* coloricosTests.xctest */,
+				EE630E0A1F16CAF3009B43EC /* coloricosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE630DED1F16CAF3009B43EC /* coloricos */ = {
+			isa = PBXGroup;
+			children = (
+				EE630DEE1F16CAF3009B43EC /* AppDelegate.swift */,
+				EE630DF01F16CAF3009B43EC /* ViewController.swift */,
+				EE630DF21F16CAF3009B43EC /* Main.storyboard */,
+				EE630DF51F16CAF3009B43EC /* Assets.xcassets */,
+				EE630DF71F16CAF3009B43EC /* LaunchScreen.storyboard */,
+				EE630DFA1F16CAF3009B43EC /* Info.plist */,
+			);
+			path = coloricos;
+			sourceTree = "<group>";
+		};
+		EE630E021F16CAF3009B43EC /* coloricosTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE630E031F16CAF3009B43EC /* coloricosTests.swift */,
+				EE630E051F16CAF3009B43EC /* Info.plist */,
+			);
+			path = coloricosTests;
+			sourceTree = "<group>";
+		};
+		EE630E0D1F16CAF3009B43EC /* coloricosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE630E0E1F16CAF3009B43EC /* coloricosUITests.swift */,
+				EE630E101F16CAF3009B43EC /* Info.plist */,
+			);
+			path = coloricosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE630DEA1F16CAF3009B43EC /* coloricos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE630E131F16CAF3009B43EC /* Build configuration list for PBXNativeTarget "coloricos" */;
+			buildPhases = (
+				EE630DE71F16CAF3009B43EC /* Sources */,
+				EE630DE81F16CAF3009B43EC /* Frameworks */,
+				EE630DE91F16CAF3009B43EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = coloricos;
+			productName = coloricos;
+			productReference = EE630DEB1F16CAF3009B43EC /* coloricos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE630DFE1F16CAF3009B43EC /* coloricosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE630E161F16CAF3009B43EC /* Build configuration list for PBXNativeTarget "coloricosTests" */;
+			buildPhases = (
+				EE630DFB1F16CAF3009B43EC /* Sources */,
+				EE630DFC1F16CAF3009B43EC /* Frameworks */,
+				EE630DFD1F16CAF3009B43EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE630E011F16CAF3009B43EC /* PBXTargetDependency */,
+			);
+			name = coloricosTests;
+			productName = coloricosTests;
+			productReference = EE630DFF1F16CAF3009B43EC /* coloricosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE630E091F16CAF3009B43EC /* coloricosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE630E191F16CAF3009B43EC /* Build configuration list for PBXNativeTarget "coloricosUITests" */;
+			buildPhases = (
+				EE630E061F16CAF3009B43EC /* Sources */,
+				EE630E071F16CAF3009B43EC /* Frameworks */,
+				EE630E081F16CAF3009B43EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE630E0C1F16CAF3009B43EC /* PBXTargetDependency */,
+			);
+			name = coloricosUITests;
+			productName = coloricosUITests;
+			productReference = EE630E0A1F16CAF3009B43EC /* coloricosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE630DE31F16CAF3009B43EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Alberto Revel";
+				TargetAttributes = {
+					EE630DEA1F16CAF3009B43EC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					EE630DFE1F16CAF3009B43EC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE630DEA1F16CAF3009B43EC;
+					};
+					EE630E091F16CAF3009B43EC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EE630DEA1F16CAF3009B43EC;
+					};
+				};
+			};
+			buildConfigurationList = EE630DE61F16CAF3009B43EC /* Build configuration list for PBXProject "coloricos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE630DE21F16CAF3009B43EC;
+			productRefGroup = EE630DEC1F16CAF3009B43EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE630DEA1F16CAF3009B43EC /* coloricos */,
+				EE630DFE1F16CAF3009B43EC /* coloricosTests */,
+				EE630E091F16CAF3009B43EC /* coloricosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE630DE91F16CAF3009B43EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE630DF91F16CAF3009B43EC /* LaunchScreen.storyboard in Resources */,
+				EE630DF61F16CAF3009B43EC /* Assets.xcassets in Resources */,
+				EE630DF41F16CAF3009B43EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE630DFD1F16CAF3009B43EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE630E081F16CAF3009B43EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE630DE71F16CAF3009B43EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE630DF11F16CAF3009B43EC /* ViewController.swift in Sources */,
+				EE630DEF1F16CAF3009B43EC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE630DFB1F16CAF3009B43EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE630E041F16CAF3009B43EC /* coloricosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE630E061F16CAF3009B43EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE630E0F1F16CAF3009B43EC /* coloricosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE630E011F16CAF3009B43EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE630DEA1F16CAF3009B43EC /* coloricos */;
+			targetProxy = EE630E001F16CAF3009B43EC /* PBXContainerItemProxy */;
+		};
+		EE630E0C1F16CAF3009B43EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE630DEA1F16CAF3009B43EC /* coloricos */;
+			targetProxy = EE630E0B1F16CAF3009B43EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE630DF21F16CAF3009B43EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE630DF31F16CAF3009B43EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE630DF71F16CAF3009B43EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE630DF81F16CAF3009B43EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE630E111F16CAF3009B43EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE630E121F16CAF3009B43EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE630E141F16CAF3009B43EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = coloricos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.arevel.coloricos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE630E151F16CAF3009B43EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = coloricos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.arevel.coloricos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE630E171F16CAF3009B43EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = coloricosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.arevel.coloricosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coloricos.app/coloricos";
+			};
+			name = Debug;
+		};
+		EE630E181F16CAF3009B43EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = coloricosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.arevel.coloricosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coloricos.app/coloricos";
+			};
+			name = Release;
+		};
+		EE630E1A1F16CAF3009B43EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = coloricosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.arevel.coloricosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = coloricos;
+			};
+			name = Debug;
+		};
+		EE630E1B1F16CAF3009B43EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = coloricosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ca.arevel.coloricosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = coloricos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE630DE61F16CAF3009B43EC /* Build configuration list for PBXProject "coloricos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE630E111F16CAF3009B43EC /* Debug */,
+				EE630E121F16CAF3009B43EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE630E131F16CAF3009B43EC /* Build configuration list for PBXNativeTarget "coloricos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE630E141F16CAF3009B43EC /* Debug */,
+				EE630E151F16CAF3009B43EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE630E161F16CAF3009B43EC /* Build configuration list for PBXNativeTarget "coloricosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE630E171F16CAF3009B43EC /* Debug */,
+				EE630E181F16CAF3009B43EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EE630E191F16CAF3009B43EC /* Build configuration list for PBXNativeTarget "coloricosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE630E1A1F16CAF3009B43EC /* Debug */,
+				EE630E1B1F16CAF3009B43EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE630DE31F16CAF3009B43EC /* Project object */;
+}
